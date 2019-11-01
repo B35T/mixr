@@ -2,7 +2,7 @@ package mixr
 
 import "net/http"
 
-type Mixr interface {
+type NewMixr interface {
 	Get(endpoint func(w http.ResponseWriter, r *http.Request)) http.Handler
 	Post(endpoint func(w http.ResponseWriter, r *http.Request)) http.Handler
 	Put(endpoint func(w http.ResponseWriter, r *http.Request)) http.Handler
