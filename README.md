@@ -9,7 +9,6 @@
 
 func main() {
 	mux := http.NewServeMux()
-	var mixr NewMixr
 
 	mux.Handle("/api/user", mixr.Get(func(w http.ResponseWriter, r *http.Request) {
 		//code
