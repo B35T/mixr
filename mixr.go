@@ -1,14 +1,8 @@
 package mixr
 
-import "net/http"
-
-type NewMixr interface {
-	Get(endpoint func(w http.ResponseWriter, r *http.Request)) http.Handler
-	Post(endpoint func(w http.ResponseWriter, r *http.Request)) http.Handler
-	Put(endpoint func(w http.ResponseWriter, r *http.Request)) http.Handler
-	Patch(endpoint func(w http.ResponseWriter, r *http.Request)) http.Handler
-	Del(endpoint func(w http.ResponseWriter, r *http.Request)) http.Handler
-}
+import (
+	"net/http"
+)
 
 const (
 	MethodGet     = "GET"
