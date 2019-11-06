@@ -3,6 +3,8 @@
 
 ### using
 
+``` go get github.com/b35t/mixr ```
+
 ```
 
 func main() {
