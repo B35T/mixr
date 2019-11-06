@@ -5,7 +5,7 @@
 
 ``` go get github.com/b35t/mixr ```
 
-`` GET, POST, PUT, PATCH, DELETE
+`` GET, POST, PUT, PATCH, DELETE ``
 
 ```
 
